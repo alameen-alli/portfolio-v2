@@ -1,38 +1,225 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/free-notulen-serif-display');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/mark-pro');
+@import url('https://fonts.cdnfonts.com/css/circular-std-book');
+
+html {
+  text-rendering: optimizeLegibility;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+@font-face {
+  font-family: 'D-DIN Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fonts/D-DIN.woff') format('woff');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+@font-face {
+  font-family: 'D-DIN Condensed Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fonts/D-DINCondensed.woff') format('woff');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+@font-face {
+  font-family: 'D-DIN Exp Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fonts/D-DINExp.woff') format('woff');
 }
 
-.App-link {
-  color: #61dafb;
+
+/* @font-face {
+  font-family: 'D-DIN Exp DINExp-Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('D-DIN Exp DINExp-Italic'), url('D-DINExp-Italic.woff') format('woff');
+  } */
+
+
+@font-face {
+  font-family: 'D-DIN Condensed DINCondensed-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fonts/D-DINCondensed-Bold.woff') format('woff');
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* @font-face {
+  font-family: 'D-DIN Exp DINExp-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('D-DIN Exp DINExp-Bold'), url('D-DINExp-Bold.woff') format('woff');
+  } */
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #050810;
+}
+
+nav {
+  font-family: 'D-DIN Condensed', sans-serif;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 1fr repeat(12, minmax(min-content, 6rem)) 1fr;
+  position: relative;
+}
+
+/* .header-container::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 26rem;
+  height: 26rem;
+  background-image: url(./image/ray-top.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
+
+.header-container::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -290px;
+  right: 166px;
+  width: 12rem;
+  height: 15rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(./image/circle.png);
+  z-index: -1
+}
+
+.header {
+  grid-column: 2/14;
+  padding: 0 6rem;
+  margin-top: 205px;
+}
+
+.hero-header-heading {
+  color: #fff;
+  font-family: 'Mark Pro', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: -.01em;
+  position: relative;
+}
+
+.hero-header-subheading {
+  margin-top: 16px;
+  /* font-family: 'D-DIN Condensed',sans-serif; */
+  font-family: 'D-DIN Regular';
+  /* font-family: 'D-DIN Condensed DINCondensed-Bold'; */
+  /* font-family: 'D-DIN Exp Regular'; */
+  text-transform: uppercase;
+  font-size: 16.704px;
+  /* letter-spacing: 3.17376px; */
+  font-weight: 500;
+  color: #c4c4c4;
+  max-width: 50%;
+}
+
+.cta-container {
+  margin-top: 96px;
+}
+
+.header-cta {
+  color: #fff;
+  padding: 1rem 3rem;
+  font-family: 'Mark Pro', sans-serif;
+  background-color: #2dd4bf;
+  border-radius: 30px;
+}
+
+main {
+  margin-top: 350px;
+  display: grid;
+  grid-template-columns: 1fr repeat(12, minmax(min-content, 6rem)) 1fr;
+}
+
+.about-container, .project-container {
+  grid-column: 2/14;
+  padding: 0 6rem;
+}
+
+.about-header,
+.about-text {
+  color: #c4c4c4;
+}
+
+.about-header {
+  font-size: 16.704px;
+  text-transform: uppercase;
+  /* letter-spacing: 3.17376px; */
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.about-text {
+  max-width: 50%;
+  font-family: 'Circular Std Book', sans-serif;
+  font-size: 15.766px;
+  font-stretch: ultra-condensed;
+  line-height: 20.5088px;
+}
+
+.skill-container::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -335px;
+  left: -250px;
+  width: 12rem;
+  height: 15rem;
+  background-image: url(./image/circle.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.skill-header {
+  font-size: 16.704px;
+  text-transform: uppercase;
+  /* letter-spacing: 3.17376px; */
+  font-weight: 500;
+  margin-bottom: 64px;
+  color: #fff;
+  text-align: end;
+}
+
+.skill-grid {
+  max-width: 90%;
+  margin: 0 auto;
+  color: #c4c4c4;
+}
+
+.skill-card {
+  /* background: linear-gradient(180deg,rgba(35,37,49,.5),rgba(15,15,24,.5)); */
+  border-color: #10101a;
+}
+
+.project-header {
+  font-size: 16.704px;
+  text-transform: uppercase;
+  /* letter-spacing: 3.17376px; */
+  font-weight: 500;
+  margin-bottom: 64px;
+  color: #fff;
 }

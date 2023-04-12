@@ -5,7 +5,10 @@ import About from './pages/About';
 import IndexPage from './pages/IndexPage';
 import Navbar from './components/Navbar';
 import HeaderSection from './components/HeaderSection';
-import Projects from './pages/Projects';
+import ProjectSection from './pages/ProjectSection';
+import OtherProjects from './pages/OtherProjects';
+import ContactSection from './pages/ContactSection';
+import Socials from './components/Socials';
 
 
 function App() {
@@ -15,7 +18,10 @@ function App() {
       <HeaderSection />
       <main>
         <About />
-        <Projects />
+        <ProjectSection />
+        <OtherProjects />
+        <ContactSection />
+        <Socials />
       </main>
     </div>
     // <Routes>

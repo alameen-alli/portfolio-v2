@@ -1,12 +1,12 @@
 import React from 'react';
-import mobile from '../image/mobile (1).png'
+import desktop from '../image/dashboard.png'
 
 const ProjectOne = () => {
   return (
     <section className='mb-32'>
       <div className='project-grid'>
         <div className='project-preview'>
-          <img className='project-one-img drop-shadow-xl' src={mobile} />
+          <img className='project-one-img drop-shadow-xl' src={desktop} />
         </div>
 
         <div className='project-summary'>
@@ -14,7 +14,7 @@ const ProjectOne = () => {
 
           </div>
           <h2>Designing the future of education</h2>
-          <p>Designing a platform to help educators build better online coursewar</p>
+          <p>Designing a platform to help <br /> educators build better online coursewar</p>
           <div>
             <a href="">
               <span>View Project</span>

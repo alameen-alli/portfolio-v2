@@ -5,10 +5,10 @@ import MySkills from '../components/MySkills';
 const About = () => {
   return (
     <div className='about-container'>
-      <div className='about-header'>
-        About Me
+      <div className='about-header text-center sm:text-left'>
+        <span className='text-gradient'>About Me</span>
       </div>
-      <p className='about-text'>
+      <p className='about-text text-center sm:w-1/2 sm:text-left'>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique et minus quo maxime! Esse ad iure animi asperiores, doloribus adipisci vitae velit tempore libero? Recusandae neque nam odio culpa similique. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla harum placeat, illo quasi, ut id minima fugiat atque corporis deserunt inventore, doloribus nesciunt eaque! Quae perspiciatis porro itaque molestias exercitationem?
       </p>
       <MySkills />

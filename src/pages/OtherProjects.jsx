@@ -1,16 +1,56 @@
 import React from 'react'
+import nestfund from '../image/nestfund.png'
+import nestfundBg from '../image/nestfundbg.png'
 
 const OtherProjects = () => {
     return (
         <div className='other-project-container mt-32 mb-32'>
 
             <div className='other-project-header text-white'>
-                Other Projects
+                <span className='text-gradient'>COMING SOON</span>
             </div>
 
-            <div className='flex flex-col space-y-8 other-project-grid'>
+            <div className="flex max-w-full flex-col-reverse rounded-xl border-[1px] border-tertiary bg-secondary-50 py-4 px-6 transition duration-200 hover:border-accent md:hover:scale-[1.01]">
 
-                <div className='group relative rounded-xl border-tertiary bg-secondary/50 p-4 transition duration-200 hover:border-accent md:hover:scale-[1.01]'>
+
+
+                <div className='jsx-8b75a9ccf5c40d44 mr-1 inline-flex items-center space-x-1 text-gray-300 transition duration-200'>
+                    <div className='mt-8 flex-col space-y-4'>
+                        <h2 className='text-lg font-semibold text-gray-100 transition duration-200 hover:opacity-60'>Creating a Custom Solana Connect Wallet UI with React and Chakra UI</h2>
+                        <p>If you have worked with the Solana Wallet Adapter before, you will know that it is very easy to set up a Connect Wallet button with a decent modal.
+                            However, customization is pretty limited. We can only add some custom CSS hence changing the styles bu...
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <div className='jsx-8b75a9ccf5c40d44 mr-1 inline-flex items-center space-x-1 text-gray-300 transition duration-200 aspect-[16/9] overflow-hidden rounded-2xl drop-shadow-md'>
+                    <img className='rounded-lg transition duration-200 hover:opacity-60' src={nestfund}/>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+    )
+}
+
+export default OtherProjects
+
+
+
+
+
+
+
+
+
+
+
+{/* <div className='group relative rounded-xl border-tertiary bg-secondary/50 p-4 transition duration-200 hover:border-accent md:hover:scale-[1.01]'>
 
                     <a class="jsx-8b75a9ccf5c40d44 transition duration-200 flex flex-col space-y-14 md:flex-row md:space-y-0 md:space-x-4" href="">
                         <svg viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 rounded-xl bg-tertiary p-1.5 shadow-md"><path d="M244.379 48.435L121.911 50.04l.754 2.614L2.476 469.189h122.479l58.949-204.299 58.511 202.779-.525 1.766h122.479L487 48.435H364.369l-59.555 209.449L245.37 51.87l.269-.933h-.538l-.722-2.502z" fill="url(#paint0_linear_6_6)"></path><defs><linearGradient id="paint0_linear_6_6" x1="421.5" y1="48" x2="69.0953" y2="468.661" gradientUnits="userSpaceOnUse"><stop stop-color="#1A3B8D"></stop><stop offset="1" stop-color="#206E86"></stop></linearGradient></defs></svg>
@@ -54,12 +94,4 @@ const OtherProjects = () => {
                             </p>
                         </div>
                     </a>
-                </div>
-
-            </div>
-
-        </div>
-    )
-}
-
-export default OtherProjects
+                </div> */}

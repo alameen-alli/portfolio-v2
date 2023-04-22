@@ -8,7 +8,7 @@ const ProjectSection = () => {
         <div className='project-container mt-96'>
 
             <div className='project-header text-white'>
-                My Projects
+                <span className='text-gradient'>My Projects</span>
             </div>
             <ProjectOne />
             <ProjectTwo />

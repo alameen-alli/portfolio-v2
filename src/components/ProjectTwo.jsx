@@ -1,5 +1,5 @@
 import React from 'react'
-import download from '../image/download (2).png'
+import techwow from '../image/techwow.png'
 
 const ProjectTwo = () => {
     return (
@@ -20,7 +20,7 @@ const ProjectTwo = () => {
                 </div>
 
                 <div className='project-preview'>
-                    <img className='project-one-img drop-shadow-xl' src={download} />
+                    <img className='project-one-img drop-shadow-xl' src={techwow} />
                 </div>
 
             </div>
@@ -28,4 +28,4 @@ const ProjectTwo = () => {
     )
 }
 
-export default ProjectTwo
+export default ProjectTwo;

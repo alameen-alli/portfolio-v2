@@ -1,12 +1,12 @@
 import React from 'react';
-import mobile from '../image/mobile (1).png'
+import moviehub from '../image/moviehub.png'
 
 const ProjectThree = () => {
   return (
     <section className='mb-32'>
       <div className='project-grid'>
         <div className='project-preview'>
-          <img className='project-one-img drop-shadow-xl' src={mobile} />
+          <img className='project-three-img drop-shadow-xl' src={moviehub} />
         </div>
 
         <div className='project-summary'>

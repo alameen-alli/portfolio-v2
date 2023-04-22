@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import myLogo from '../image/b541711059847543.62750747823ad.png';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
+import { Transition } from 'react-transition-group';
 
 const Navbar = () => {
+
+
+    const [openMenu, setOpenMenu] = useState(false);
+    const toggleMenu = () => {
+        setOpenMenu(!openMenu);
+    }
+
+
     return (
         <div className='nav-bg fixed z-50 w-full text-xl text-gray-300 bg-opacity-50 dark:bg-dark backdrop-filter backdrop-blur-lg'>
             <div className='flex items-center justify-between max-w-6xl px-4 py-3 mx-auto sm:px-6 md:space-x-10'>
@@ -10,12 +20,35 @@ const Navbar = () => {
                     <NavLink to={'/'}><img src={myLogo} className="w-8 h-8" /></NavLink>
                     {/* <div className='font-base logo-text'>Alli Al-ameen</div> */}
                 </div>
-                {/* <div className='-my-2 -mr-2 md:hidden'>
-                <div className='bg-gray-200 dark:bg-midnight text-gray-600 dark:text-gray-300 cursor-pointer rounded-full p-3.5 inline-flex items-center justify-center  focus:outline-none'>
-                    <span className='sr-only'>Open menu</span>
-                    <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.75 5.75H19.25"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.75 18.25H19.25"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.75 12H19.25"></path></svg>
+                <div className='-my-2 -mr-2 md:hidden' onClick={toggleMenu} >
+                    <div className='dark:bg-midnight text-gray-600 dark:text-gray-300 cursor-pointer rounded-full p-3.5 inline-flex items-center justify-center  focus:outline-none'>
+                        {/* <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.75 5.75H19.25"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.75 18.25H19.25"></path><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.75 12H19.25"></path></svg> */}
+                        {/* {!openMenu ? <FaBars /> : <FaTimes />} */}
+                        <FaBars />
+                        <Transition
+                            in={openMenu}
+                            timeout={200}
+                            mountOnEnter
+                            unmountOnExit
+                        >
+                            {state => (
+                                <div className={`menu transition-opacity duration-200 ${state === 'entered' ? 'opacity-100' : 'opacity-0'} fixed w-full max-w-xs p-6 text-md text-gray-900 bg-gray-800 shadow-lg rounded-3xl top-3 right-4  dark:text-gray-400 dark:highlight-white/5`}>
+                                    {/* Your menu items here */}
+                                    <div className='absolute flex items-center justify-center w-8 h-8 text-gray-500 top-5 right-5 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-300'>
+                                        <FaTimes />
+                                    </div>
+                                    <div className='mt-6'>
+                                        <nav className='flex flex-col space-y-6'>
+                                            <NavLink to={'/about-me'}>About</NavLink>
+                                            <a href="">Projects</a>
+                                            <a href="">Reach out</a>
+                                        </nav>
+                                    </div>
+                                </div>
+                            )}
+                        </Transition>
+                    </div>
                 </div>
-            </div> */}
                 <nav className='nav hidden md:flex space-x-12'>
                     <NavLink to={'/about-me'}>About</NavLink>
                     <a href="">Projects</a>
@@ -42,4 +75,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar;
+export default Navbar

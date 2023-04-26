@@ -7,7 +7,7 @@ const ProjectSection = () => {
     return (
         <div className='project-container mt-96'>
 
-            <div className='project-header text-white'>
+            <div className='project-header text-white text-center sm:text-right'>
                 <span className='text-gradient'>My Projects</span>
             </div>
             <ProjectOne />

@@ -10,15 +10,14 @@ const OtherProjects = () => {
                 <span className='text-gradient'>COMING SOON</span>
             </div>
 
-            <div className="flex max-w-full flex-col-reverse rounded-xl border-[1px] border-tertiary bg-secondary-50 py-4 px-6 transition duration-200 hover:border-accent md:hover:scale-[1.01]">
+            <div className="other-project-card flex max-w-full flex-col-reverse rounded-3xl  py-16 px-16 transition duration-200 hover:border-accent md:hover:scale-[1.01]">
 
 
 
                 <div className='jsx-8b75a9ccf5c40d44 mr-1 inline-flex items-center space-x-1 text-gray-300 transition duration-200'>
                     <div className='mt-8 flex-col space-y-4'>
-                        <h2 className='text-lg font-semibold text-gray-100 transition duration-200 hover:opacity-60'>Creating a Custom Solana Connect Wallet UI with React and Chakra UI</h2>
-                        <p>If you have worked with the Solana Wallet Adapter before, you will know that it is very easy to set up a Connect Wallet button with a decent modal.
-                            However, customization is pretty limited. We can only add some custom CSS hence changing the styles bu...
+                        <h2 className='nestfund-color text-lg font-semibold text-gray-400 transition duration-200 hover:opacity-60'>Empower aspiring techies with the tools they need to succeed!</h2>
+                        <p>NestFund is a crowdfunding app that aims to support new techies who are looking to break into the industry by providing a platform for them to raise funds for the equipment and tools they need to pursue their tech dreams. 
                         </p>
                     </div>
                 </div>
@@ -26,7 +25,7 @@ const OtherProjects = () => {
 
 
                 <div className='jsx-8b75a9ccf5c40d44 mr-1 inline-flex items-center space-x-1 text-gray-300 transition duration-200 aspect-[16/9] overflow-hidden rounded-2xl drop-shadow-md'>
-                    <img className='rounded-lg transition duration-200 hover:opacity-60' src={nestfund}/>
+                    <img className='rounded-3xl transition duration-200 hover:opacity-60' src={nestfund}/>
                 </div>
 
 
@@ -38,7 +37,9 @@ const OtherProjects = () => {
     )
 }
 
-export default OtherProjects
+export default OtherProjects;
+
+// className="flex max-w-full flex-col-reverse rounded-xl  py-4 px-6 transition duration-200 hover:border-accent md:hover:scale-[1.01]"
 
 
 

@@ -6,15 +6,17 @@ const ProjectTwo = () => {
         <section className='mb-12'>
             <div className='project-grid'>
 
-                <div className='project-summary'>
+                <div className='project-summary-techwow'>
                     <div className='project-index'>
 
                     </div>
-                    <h2>Designing the future of education</h2>
-                    <p>Designing a platform to help educators build better online coursewar</p>
-                    <div>
+                    <div className='min-w-0 font-bold text-sm sm:text-xl lg:text-2xl mb-4'>
+                        <h2 className='techwow-anim inline-block'>TechWow</h2>
+                    </div>
+                    <p className='text-xs lg:text-sm'>Go-to destination <br /> for tech enthusiasts and bloggers.</p>
+                    <div className='mt-4'>
                         <a href="">
-                            <span>View Project</span>
+                            <span className='text-white text-xs lg:text-base'>View Project Details</span>
                         </a>
                     </div>
                 </div>

@@ -12,18 +12,18 @@ const MySkills = () => {
     return (
         <div className='skill-container relative mt-32'>
 
-            <div className='skill-header'>
+            <div className='skill-header text-center sm:text-right'>
                 <span className='text-gradient'>My Skills</span>
             </div>
 
-            <div className='skill-grid grid grid-cols-1 lg:grid-cols-3'>
+            <div className='skill-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3'>
 
                 <div className='skill-card px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100 m-6'>
                     <div className='w-5 h-5'>
                         <img src={htmlLogo} />
                     </div>
                     <div class="min-w-0 flex-1 flex flex-col">
-                        <p class="truncate">Html</p>
+                        <p class="truncatee">Html</p>
                         {/* <small class="truncate">(Dart, Flutter, Firebase)</small> */}
                     </div>
                 </div>
@@ -34,7 +34,7 @@ const MySkills = () => {
                         <img src={cssLogo} />
                     </div>
                     <div class="min-w-0 flex-1 flex flex-col">
-                        <p class="truncate">Css</p>
+                        <p class="truncatee">Css</p>
                         {/* <small class="truncate">(Dart, Flutter, Firebase)</small> */}
                     </div>
 
@@ -46,7 +46,7 @@ const MySkills = () => {
                         <img src={jsLogo} />
                     </div>
                     <div class="min-w-0 flex-1 flex flex-col">
-                        <p class="truncate">Javascript</p>
+                        <p class="truncatee">Javascript</p>
                         {/* <small class="truncate">(Dart, Flutter, Firebase)</small> */}
                     </div>
 
@@ -58,7 +58,7 @@ const MySkills = () => {
                         <img src={ReactLogo} />
                     </div>
                     <div class="min-w-0 flex-1 flex flex-col">
-                        <p class="truncate">React.js</p>
+                        <p class="truncatee">React.js</p>
                         {/* <small class="truncate">(Dart, Flutter, Firebase)</small> */}
                     </div>
 
@@ -69,7 +69,7 @@ const MySkills = () => {
                         <img src={tlLogo} />
                     </div>
                     <div class="min-w-0 flex-1 flex flex-col">
-                        <p class="truncate">Tailwind Css</p>
+                        <p class="truncatee">Tailwind Css</p>
                         {/* <small class="truncate">(Dart, Flutter, Firebase)</small> */}
                     </div>
                 </div>
@@ -80,7 +80,7 @@ const MySkills = () => {
                         <img src={nodeLogo} />
                     </div>
                     <div class="min-w-0 flex-1 flex flex-col">
-                        <p class="truncate">Node.js</p>
+                        <p class="truncatee">Node.js</p>
                         {/* <small class="truncate">(Dart, Flutter, Firebase)</small> */}
                     </div>
 
@@ -92,7 +92,7 @@ const MySkills = () => {
                         <img src={mongoLogo} />
                     </div>
                     <div class="min-w-0 flex-1 flex flex-col">
-                        <p class="truncate">MongoDb</p>
+                        <p class="truncatee">MongoDb</p>
                         {/* <small class="truncate">(Dart, Flutter, Firebase)</small> */}
                     </div>
 

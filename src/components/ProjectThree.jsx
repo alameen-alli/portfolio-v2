@@ -13,11 +13,13 @@ const ProjectThree = () => {
           <div className='project-index'>
 
           </div>
-          <h2>Designing the future of education</h2>
-          <p>Designing a platform to help educators build better online coursewar</p>
-          <div>
+          <div className='min-w-0 font-bold text-sm sm:text-xl lg:text-2xl mb-4'>
+            <h2 className='moviehub-anim inline-block'>MovieHub</h2>
+          </div>
+          <p className='text-xs lg:text-sm'>Discover your next favorite movie <br/> with MovieHub - the ultimate destination for <br /> movie lovers!</p>
+          <div className='mt-4'>
             <a href="">
-              <span>View Project</span>
+              <span className='text-white text-xs lg:text-base'>View Project</span>
             </a>
           </div>
         </div>

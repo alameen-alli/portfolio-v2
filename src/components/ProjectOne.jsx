@@ -13,11 +13,13 @@ const ProjectOne = () => {
           <div className='project-index'>
 
           </div>
-          <h2>Designing the future of education</h2>
-          <p>Designing a platform to help <br /> educators build better online coursewar</p>
-          <div>
-            <a href="">
-              <span>View Project</span>
+          <div className='shopmaster-anim font-bold text-sm sm:text-xl lg:text-2xl mb-4'>
+            <h2>Shopmaster Admin Dashboard</h2>
+          </div>
+          <p className='text-xs lg:text-sm'>Provide a quick summary of key metrics <br /> or data points for your store, <br /> such as sales, orders, and traffic.</p>
+          <div className='mt-4'>
+            <a className='project-details' href="">
+              <span className='text-white text-xs lg:text-base'>View Project Details</span>
             </a>
           </div>
         </div>

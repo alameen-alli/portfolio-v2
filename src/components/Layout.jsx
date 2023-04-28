@@ -5,11 +5,24 @@ import Navbar from './Navbar'
 
 const Layout = () => {
   return (
-    <div className='app'>
+    <div>
       <Navbar />
-      
+      <Outlet /> 
     </div>
   )
 }
 
 export default Layout
+
+
+{/* <div>
+      <Navbar />
+      <HeaderSection />
+      <main>
+        <About />
+        <ProjectSection />
+        <OtherProjects />
+        <ContactSection />
+        <Socials />
+      </main>
+    </div> */}

@@ -3,7 +3,7 @@ import techwow from '../image/techwow.png'
 
 const ProjectTwo = () => {
     return (
-        <section className='mb-12'>
+        <section className='mb-32'>
             <div className='project-grid'>
 
                 <div className='project-summary-techwow'>
@@ -16,7 +16,7 @@ const ProjectTwo = () => {
                     <p className='text-xs lg:text-sm'>Go-to destination <br /> for tech enthusiasts and bloggers.</p>
                     <div className='mt-4'>
                         <a href="">
-                            <span className='text-white text-xs lg:text-base'>View Project Details</span>
+                            <span className='text-white text-xs lg:text-base project-cta'>View Project Details</span>
                         </a>
                     </div>
                 </div>

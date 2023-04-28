@@ -4,8 +4,9 @@ import MySkills from '../components/MySkills';
 
 const About = () => {
   return (
-    <div className='about-container'>
-      <div className='about-header text-center sm:text-left'>
+    <div className='about-container' id='about'>
+      <div className='text-white hidden'>About</div>
+      <div className='about-header text-center sm:text-left mt-32'>
         <span className='text-gradient'>About Me</span>
       </div>
       <p className='about-text text-center sm:w-1/2 sm:text-left'>

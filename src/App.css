@@ -90,7 +90,7 @@ nav {
   content: "";
   display: block;
   position: absolute;
-  bottom: -1833px;
+  bottom: -2038px;
   left: 166px;
   width: 12rem;
   height: 15rem;
@@ -111,7 +111,7 @@ nav {
     content: "";
     display: block;
     position: absolute;
-    bottom: -1560px;
+    bottom: -1788px;
     left: 166px;
     width: 12rem;
     height: 15rem;
@@ -135,7 +135,7 @@ nav {
     content: "";
     display: block;
     position: absolute;
-    bottom: -1448px;
+    bottom: -1620px;
     left: 166px;
     width: 12rem;
     height: 15rem;
@@ -227,7 +227,7 @@ main {
 }
 
 .contact-container {
-  border-top: 1px solid rgb(243 243 243 / 1);
+  border-top: 1px solid #7c7d7f;
 }
 
 .about-text {
@@ -327,7 +327,7 @@ main {
   /* letter-spacing: 3.17376px; */
   font-weight: 500;
   margin-bottom: 64px;
-  text-align: left;
+  /* text-align: left; */
   color: #fff;
 }
 
@@ -425,7 +425,7 @@ main {
 }
 
 .other-project-card {
-  width: 80%;
+  /* width: 80%; */
   margin: 10rem auto;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(35, 37, 49, .5)), to(rgba(15, 15, 24, .5)));
   background: -webkit-linear-gradient(top, rgba(35, 37, 49, .5), rgba(15, 15, 24, .5));
@@ -441,6 +441,7 @@ main {
   padding: 6rem;
   position: relative; */
 }
+
 
 /* .nestfund-color {
   color: #c4c4c4;
@@ -549,7 +550,50 @@ main {
   border-color: rgb(34 34 34/ 1);
 }
 
-.project-cta:hover {
+.name-gradient {
+  background: -webkit-gradient(-135deg, #b0f3f1, #ffcfdf, #b0f3f1, #ffcfdf);
+  background: linear-gradient(-45deg, #b0f3f1, #ffcfdf, #b0f3f1, #ffcfdf);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-size: 400% 400%;
+  -webkit-animation: gradient 3s ease infinite;
+  animation: gradient 3s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+      background-position: 0 50%
+  }
+
+  50% {
+      background-position: 100% 50%
+  }
+
+  to {
+      background-position: 0 50%
+  }
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0 50%
+  }
+
+  50% {
+      background-position: 100% 50%
+  }
+
+  to {
+      background-position: 0 50%
+  }
+}
+
+/* .name-gradient {
+  color: #b0f3f1;
+} */
+
+.project-cta:hover, .nav-gradient:hover {
   /* text-decoration: none;
     background-image: -webkit-linear-gradient(left,#be185d,#1d4ed8);
     background-image: -moz-linear-gradient(left,#be185d,#1d4ed8);

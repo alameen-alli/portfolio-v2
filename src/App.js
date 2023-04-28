@@ -13,17 +13,14 @@ import Socials from './components/Socials';
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <HeaderSection />
-      <main>
-        <About />
-        <ProjectSection />
-        <OtherProjects />
-        <ContactSection />
-        <Socials />
-      </main>
-    </div>
+
+      <Routes>
+        <Route path='/' element={<Layout />}>
+          <Route index element={<IndexPage />} />
+        </Route>
+      </Routes>
+
+
     // <Routes>
     //   <Route path="/" element={<Layout />}>
     //     <Route index element={<IndexPage />} />
@@ -34,6 +31,18 @@ function App() {
     //     <Route path="/edit/:id" element={<EditPost />} /> */}
     //   </Route>
     // </Routes>
+
+    // <div>
+    //   <Navbar />
+    //   <HeaderSection />
+    //   <main>
+    //     <About />
+    //     <ProjectSection />
+    //     <OtherProjects />
+    //     <ContactSection />
+    //     <Socials />
+    //   </main>
+    // </div>
   );
 }
 

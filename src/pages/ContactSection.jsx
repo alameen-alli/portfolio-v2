@@ -2,12 +2,12 @@ import React from 'react'
 
 const ContactSection = () => {
     return (
-        <div className='contact-container text-gray-300 relative'>
+        <div className='contact-container text-gray-300 relative' id='contact'>
 
-            <div className='contact-header mt-32 text-white'>
+            <div className='contact-header mt-32 text-center sm:text-left text-white'>
                 <span className='text-gradient'>Contact Me</span>
             </div>
-            <p class="font-normal">
+            <p class="font-normal text-center sm:text-left">
                 You can send me an email at
                 <a href="mailto:allialameen8739@gmail.com" class=" ml-1 mr-1 inline-flex items-center space-x-1 transition duration-200 gradient-underline no-underline text-blue-400 hover:text-blue-300">
                     <span>allialameen8739@gmail.com</span>

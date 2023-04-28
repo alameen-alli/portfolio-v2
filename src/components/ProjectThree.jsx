@@ -19,7 +19,7 @@ const ProjectThree = () => {
           <p className='text-xs lg:text-sm'>Discover your next favorite movie <br/> with MovieHub - the ultimate destination for <br /> movie lovers!</p>
           <div className='mt-4'>
             <a href="">
-              <span className='text-white text-xs lg:text-base'>View Project</span>
+              <span className='text-white text-xs lg:text-base project-cta'>View Project</span>
             </a>
           </div>
         </div>

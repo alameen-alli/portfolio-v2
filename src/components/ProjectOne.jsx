@@ -19,7 +19,7 @@ const ProjectOne = () => {
           <p className='text-xs lg:text-sm'>Provide a quick summary of key metrics <br /> or data points for your store, <br /> such as sales, orders, and traffic.</p>
           <div className='mt-4'>
             <a className='project-details' href="">
-              <span className='text-white text-xs lg:text-base'>View Project Details</span>
+              <span className='text-white text-xs lg:text-base project-cta'>View Project Details</span>
             </a>
           </div>
         </div>

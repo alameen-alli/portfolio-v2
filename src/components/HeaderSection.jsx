@@ -1,21 +1,24 @@
 import React from 'react'
+import { HashLink } from 'react-router-hash-link';
 
 const HeaderSection = () => {
     return (
-        <div className='header-container relative'>
+        <div className='header-container relative' id='home'>
             <header className='header'>
                 <div className='hero-header'>
                     <div className='hero-header-heading text-4xl text-center whitespace-nowraps sm:text-5xl md:text-5xl sm:text-left font-black sm:whitespace-nowrap'>
-                        hello there, <span>I'm Al-ameen</span> <br /> a proactive front end <br /> developer.
+                        hello there, <span className='name-gradient inline-block'>I'm Al-ameen</span> <br /> a proactive front end <br /> developer.
                     </div>
                     <div className='hero-header-subheading text-center sm:text-left mx-auto sm:ml-0 w-full sm:w-1/2'>
                         Constantly seeking to <span>learn and grow</span>, I'm passionate about advancing my skills and knowledge in order to <span>excel in my field</span>.
                     </div>
                     <div className='cta-container'>
-                        <button className=' flex items-center justify-between space-x-2 project-cta'>
-                            <div className='header-cta'>View my projects</div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="hover:animate-pulse h-5 w-5 transition duration-200 group-hover:translate-x-1"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                        </button>
+                        <HashLink to="#projects" smooth>
+                            <button className=' flex items-center justify-between space-x-2 project-cta'>
+                                <div className='header-cta'>View my projects</div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="hover:animate-pulse h-5 w-5 transition duration-200 group-hover:translate-x-1"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                            </button>
+                        </HashLink>
                     </div>
                 </div>
             </header>

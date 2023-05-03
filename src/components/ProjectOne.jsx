@@ -1,5 +1,6 @@
 import React from 'react';
 import desktop from '../image/dashboard.png'
+import { Link } from 'react-router-dom';
 
 const ProjectOne = () => {
   return (
@@ -18,9 +19,9 @@ const ProjectOne = () => {
           </div>
           <p className='text-xs lg:text-sm'>Provide a quick summary of key metrics <br /> or data points for your store, <br /> such as sales, orders, and traffic.</p>
           <div className='mt-4'>
-            <a className='project-details' href="">
+            <Link to="/shopmaster" className='project-details' href="">
               <span className='text-white text-xs lg:text-base project-cta'>View Project Details</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -28,4 +29,4 @@ const ProjectOne = () => {
   )
 }
 
-export default ProjectOne
+export default ProjectOne;

@@ -1,24 +1,21 @@
 import './App.css';
 import { Route, Routes } from "react-router-dom";
 import Layout from './components/Layout';
-import About from './pages/About';
 import IndexPage from './pages/IndexPage';
-import Navbar from './components/Navbar';
-import HeaderSection from './components/HeaderSection';
-import ProjectSection from './pages/ProjectSection';
-import OtherProjects from './pages/OtherProjects';
-import ContactSection from './pages/ContactSection';
-import Socials from './components/Socials';
+import ProjectOneDetails from './pages/ProjectOneDetails';
 
 
 function App() {
   return (
 
-      <Routes>
-        <Route path='/' element={<Layout />}>
-          <Route index element={<IndexPage />} />
-        </Route>
-      </Routes>
+    <Routes>
+      <Route path='/' element={<Layout />}>
+        <Route index element={<IndexPage />} />
+      </Route>
+      <Route>
+        <Route path='/shopmaster' element={<ProjectOneDetails />} />
+      </Route>
+    </Routes>
 
 
     // <Routes>

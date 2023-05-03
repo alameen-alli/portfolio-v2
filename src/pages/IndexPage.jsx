@@ -15,7 +15,7 @@ const IndexPage = () => {
         // </main>
         <>
             <HeaderSection />
-            <main>
+            <main className='indexPage'>
                 <About />
                 <ProjectSection />
                 <OtherProjects />

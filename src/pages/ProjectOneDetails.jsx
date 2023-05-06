@@ -10,6 +10,7 @@ import orderPage from '../image/ordersPage.png';
 import customerPage from '../image/customerPage.png';
 import employeePage from '../image/employeePage.png';
 import backArrow from '../image/left-arrow-7360.svg';
+import netlify from '../image/netlify-seeklogo.com.svg';
 import { HashLink } from 'react-router-hash-link';
 
 const ProjectOneDetails = () => {
@@ -39,10 +40,11 @@ const ProjectOneDetails = () => {
                         </div>
                         <div className='mt-12'>
                             <p className='uppercase font-bold'>stack</p>
-                            <div className='w-2/3 grid grid-cols-3 details-text'>
+                            <div className='w-2/3 grid grid-cols-4 details-text'>
                                 <div className='skill-card pr-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100 mr-6 my-6'><li>React Js</li></div>
                                 <div className='skill-card pr-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100 mr-6 my-6'><li>Tailwind Css</li></div>
                                 <div className='skill-card pr-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100 mr-6 my-6'><li>SyncFusion</li></div>
+                                <div className='skill-card pr-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100 mr-6 my-6'><li>Netlify</li></div>
                             </div>
                         </div>
                     </div>
@@ -118,6 +120,16 @@ const ProjectOneDetails = () => {
                                 </div>
 
                                 <div className='stack-card px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100'>
+                                    <div className='w-5 h-5'>
+                                        <img src={netlify} />
+                                    </div>
+                                    <div className="min-w-0 flex-1 flex flex-col">
+                                        <p class="truncatee">Netlify</p>
+                                        {/* <small class="truncate">(Dart, Flutter, Firebase)</small> */}
+                                    </div>
+                                </div>
+
+                                <div className='stack-card px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100'>
                                     <div className=''>
                                         <img src={syncfusionUrl} />
                                     </div>
@@ -135,7 +147,12 @@ const ProjectOneDetails = () => {
                                     Web Stack And Explanation
                                 </div>
                                 <p className='details-text text-lefts'>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate odio ratione et sint ab voluptate tempore corrupti ducimus, atque velit facere molestias repellendus placeat eos quam, saepe nostrum reprehenderit molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem totam rerum non culpa natus, temporibus nemo sed ab optio consequuntur nisi quo possimus magni laboriosam harum fugiat esse nihil corporis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum rem amet cumque corrupti voluptatem temporibus magni iusto nulla quo illum tenetur at distinctio aliquam, quas et. Incidunt quod id officia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Id soluta, optio ipsam unde sint eum odio dignissimos at necessitatibus laborum, maxime possimus saepe, hic facilis debitis. Minus autem tenetur tempora!
+                                    React made the most sense for application because of its component-based architecture which allowed for reusability, faster rendering and better performance. For styling, I used Tailwind CSS, which is a utility-first CSS framework. This helped me quickly create a custom and responsive design for the dashboard without having to write a lot of CSS code from scratch.
+                                </p>
+                                <p className='mt-10 details-text text-lefts'>
+                                    Syncfusion was a great choice for implementing the data visualization and charting features of the dashboard. Their library provides a wide range of customizable and well-designed components, making it easy to create beautiful charts and graphs.
+
+                                    Lastly, I deployed the application on Netlify, a cloud-based hosting service that offers a simple and efficient way to deploy web applications. With Netlify, I was able to easily set up continuous deployment.
                                 </p>
                             </div>
                         </div>
@@ -162,7 +179,10 @@ const ProjectOneDetails = () => {
                                 Problems And Thought Process
                             </div>
                             <p className='text-center'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium tempora praesentium sunt mollitia consequuntur, error repellendus quibusdam recusandae et beatae, hic minima aliquam amet fugit pariatur quas eaque a! Atque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime totam modi omnis aut libero, obcaecati quaerat quidem quia mollitia corporis accusantium aliquam qui blanditiis eos? Ea sed nisi omnis natus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam officiis illo soluta, animi iure consectetur recusandae modi doloremque, dolore accusantium doloribus neque ad quibusdam iste sequi ex voluptates maxime harum!
+                                When I first started building the admin dashboard, I knew that I wanted it to be user-friendly, customizable, and easy to navigate. However, I quickly realized that creating such an app from scratch might come with a little challenge.
+                            </p>
+                            <p className='mt-5 text-center'>
+                                The challenge I encountered was deciding which technologies to use. I knew that I wanted to build the app with React, but I needed to find additional tools and packages that would allow me to create the features I had in mind. After some research, I settled on using Tailwind CSS for styling and Syncfusion for data visualization and charting.
                             </p>
                         </div>
                     </div>
@@ -187,7 +207,7 @@ const ProjectOneDetails = () => {
                                 Lessons Learned
                             </div>
                             <p className='text-left'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium tempora praesentium sunt mollitia consequuntur, error repellendus quibusdam recusandae et beatae, hic minima aliquam amet fugit pariatur quas eaque a! Atque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime totam modi omnis aut libero, obcaecati quaerat quidem quia mollitia corporis accusantium aliquam qui blanditiis eos? Ea sed nisi omnis natus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam officiis illo soluta, animi iure consectetur recusandae modi doloremque, dolore accusantium doloribus neque ad quibusdam iste sequi ex voluptates maxime harum!
+                                Overall, building the Shopmaster admin dashboard was a challenging but rewarding experience. It forced me to think deeply about the needs of users and how to design an app that would meet those needs while also being aesthetically pleasing and easy to use.
                             </p>
                         </div>
                     </div>

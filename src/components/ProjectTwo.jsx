@@ -1,5 +1,6 @@
 import React from 'react'
 import techwow from '../image/techwow.png'
+import { Link } from 'react-router-dom';
 
 const ProjectTwo = () => {
     return (
@@ -15,9 +16,9 @@ const ProjectTwo = () => {
                     </div>
                     <p className='text-xs lg:text-sm'>Go-to destination <br /> for tech enthusiasts and bloggers.</p>
                     <div className='mt-4'>
-                        <a href="">
+                        <Link to="/techwow" className='project-details' href="">
                             <span className='text-white text-xs lg:text-base project-cta'>View Project Details</span>
-                        </a>
+                        </Link>
                     </div>
                 </div>
 

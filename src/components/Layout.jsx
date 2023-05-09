@@ -15,14 +15,3 @@ const Layout = () => {
 export default Layout
 
 
-{/* <div>
-      <Navbar />
-      <HeaderSection />
-      <main>
-        <About />
-        <ProjectSection />
-        <OtherProjects />
-        <ContactSection />
-        <Socials />
-      </main>
-    </div> */}

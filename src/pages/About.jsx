@@ -1,5 +1,4 @@
 import React from 'react';
-import myPic from '../image/myPic.png';
 import MySkills from '../components/MySkills';
 
 const About = () => {

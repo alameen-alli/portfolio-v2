@@ -25,7 +25,7 @@ const OtherProjects = () => {
 
 
                 <div className='jsx-8b75a9ccf5c40d44 mr-1 inline-flex items-center space-x-1 text-gray-300 transition duration-200 aspect-[16/9] overflow-hidden rounded-2xl drop-shadow-md'>
-                    <img className='rounded-3xl transition duration-200 hover:opacity-60' src={nestfund}/>
+                    <img className='rounded-xl transition duration-200 hover:opacity-60' src={nestfund}/>
                 </div>
 
 

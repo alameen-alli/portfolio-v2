@@ -170,7 +170,8 @@ nav {
 
 .header {
   grid-column: 2/14;
-  padding: 0 6rem;
+  /* padding: 0 6rem; */
+  padding: 0 2rem;
   margin-top: 150px;
 }
 
@@ -227,10 +228,22 @@ main.project-details {
 .project-container,
 .other-project-container,
 .contact-container,
-.socials-container,
+.socials-container {
+  grid-column: 2/14;
+  /* padding: 0 6rem; */
+  padding: 0 3rem;
+}
+
 .details-container {
   grid-column: 2/14;
-  padding: 0 6rem;
+  padding: 0 3rem;
+}
+
+@media (min-width: 640px) {
+  .details-container {
+    grid-column: 0/14;
+    padding: 0 6rem;
+  }
 }
 
 .contact-container {
@@ -240,6 +253,10 @@ main.project-details {
 .about-text,
 .details-text {
   color: #d1d5db;
+}
+
+.project-text {
+  color: #9ca3af;
 }
 
 .about-header {
@@ -341,13 +358,25 @@ main.project-details {
 
 .project-grid {
   width: 100%;
-  /* max-width: var(--maxWidthL); */
   align-items: center;
   justify-content: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 80px;
   color: #c4c4c4;
+}
+
+@media (min-width: 640px) {
+  .project-grid-shopmaster, .project-grid-techwow, .project-grid-movie {
+    width: 100%;
+    /* max-width: var(--maxWidthL); */
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 80px;
+    color: #c4c4c4;
+  }
 }
 
 .other-project-grid {
@@ -460,6 +489,29 @@ main.project-details {
 
 .stack-card {
   margin: 0 auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(35, 37, 49, .5)), to(rgba(15, 15, 24, .5)));
+  background: -webkit-linear-gradient(top, rgba(35, 37, 49, .5), rgba(15, 15, 24, .5));
+  background: linear-gradient(180deg, rgba(35, 37, 49, .5), rgba(15, 15, 24, .5));
+  border: 0.10rem solid #20222e;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 180px;
+  height: 50px;
+}
+
+.stack-card-mobile {
+  margin: 0 auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(35, 37, 49, .5)), to(rgba(15, 15, 24, .5)));
+  background: -webkit-linear-gradient(top, rgba(35, 37, 49, .5), rgba(15, 15, 24, .5));
+  background: linear-gradient(180deg, rgba(35, 37, 49, .5), rgba(15, 15, 24, .5));
+  border: 0.10rem solid #20222e;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 120px;
+  height: 50px;
+}
+
+.view-card {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(35, 37, 49, .5)), to(rgba(15, 15, 24, .5)));
   background: -webkit-linear-gradient(top, rgba(35, 37, 49, .5), rgba(15, 15, 24, .5));
   background: linear-gradient(180deg, rgba(35, 37, 49, .5), rgba(15, 15, 24, .5));
@@ -665,4 +717,38 @@ li {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /* display: inline-block; */
+}
+
+.projects-cta {
+  /* text-decoration: none;
+    background-image: -webkit-linear-gradient(left,#be185d,#1d4ed8);
+    background-image: -moz-linear-gradient(left,#be185d,#1d4ed8);
+    background-image: -o-linear-gradient(left,#be185d,#1d4ed8);
+    background-image: linear-gradient(to right,#be185d,#1d4ed8);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    -webkit-background-size: 0%2px;
+    -moz-background-size: 0%2px;
+    -o-background-size: 0%2px;
+    background-size: 0%2px;
+    -webkit-transition: background-size 150ms ease-in-out;
+    -moz-transition: background-size 150ms ease-in-out;
+    -o-transition: background-size 150ms ease-in-out;
+    transition: background-size 150ms ease-in-out; */
+    background-image: -webkit-gradient(linear, left top, right top, from(#b0f3f1), to(#ffcfdf));
+    background-image: -webkit-linear-gradient(left, #b0f3f1, #ffcfdf);
+    background-image: linear-gradient(90deg, #b0f3f1, #ffcfdf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* display: inline-block; */
+}
+
+.next-cta {
+  background-image: -webkit-gradient(linear, left top, right top, from(#b0f3f1), to(#ffcfdf));
+  background-image: -webkit-linear-gradient(left, #b0f3f1, #ffcfdf);
+  background-image: linear-gradient(90deg, #b0f3f1, #ffcfdf);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

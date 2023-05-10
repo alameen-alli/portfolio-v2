@@ -274,13 +274,11 @@ main.project-details {
   -webkit-text-fill-color: transparent;
 }
 
-.about-text {
-  /* max-width: 50%; */
-  /* font-family: 'Circular Std Book', sans-serif; */
+/* .about-text {
   font-size: 15.766px;
   font-stretch: ultra-condensed;
   line-height: 20.5088px;
-}
+} */
 
 /* .skill-container::after {
   content: "";

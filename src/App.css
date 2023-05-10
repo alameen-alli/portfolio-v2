@@ -66,7 +66,7 @@ body {
   box-sizing: border-box;
 }
 
-body {
+html,body {
   /* background-color: #050810; */
   background-color: #10101a;
   overflow-x: hidden;

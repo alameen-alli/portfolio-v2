@@ -3,7 +3,6 @@ import htmlLogo from '../icons/cdnlogo.com_html.svg';
 import cssLogo from '../icons/cdnlogo.com_css.svg';
 import jsLogo from '../icons/cdnlogo.com_javascript.svg';
 import tlLogo from '../icons/cdnlogo.com_tailwind-css.svg';
-import reactLogo from '../icons/cdnlogo.com_react.svg';
 import mongoLogo from '../icons/cdnlogo.com_mongodb-icon.svg';
 import nodeLogo from '../icons/cdnlogo.com_nodejs-icon.svg';
 import ReactLogo from '../icons/cdnlogo.com_react.svg'
@@ -20,7 +19,7 @@ const MySkills = () => {
 
                 <div className='skill-card px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100 m-6'>
                     <div className='w-5 h-5'>
-                        <img src={htmlLogo} />
+                        <img alt='' src={htmlLogo} />
                     </div>
                     <div class="min-w-0 flex-1 flex flex-col">
                         <p class="truncatee">Html</p>
@@ -31,7 +30,7 @@ const MySkills = () => {
                 <div className='skill-card px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100 m-6'>
 
                     <div className='w-5 h-5'>
-                        <img src={cssLogo} />
+                        <img alt='' src={cssLogo} />
                     </div>
                     <div class="min-w-0 flex-1 flex flex-col">
                         <p class="truncatee">Css</p>
@@ -43,7 +42,7 @@ const MySkills = () => {
                 <div className='skill-card px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100 m-6'>
 
                     <div className='w-5 h-5'>
-                        <img src={jsLogo} />
+                        <img alt='' src={jsLogo} />
                     </div>
                     <div class="min-w-0 flex-1 flex flex-col">
                         <p class="truncatee">Javascript</p>
@@ -55,7 +54,7 @@ const MySkills = () => {
                 <div className='skill-card px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100 m-6'>
 
                     <div className='w-5 h-5'>
-                        <img src={ReactLogo} />
+                        <img alt='' src={ReactLogo} />
                     </div>
                     <div class="min-w-0 flex-1 flex flex-col">
                         <p class="truncatee">React.js</p>
@@ -66,7 +65,7 @@ const MySkills = () => {
 
                 <div className='skill-card px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100 m-6'>
                     <div className='w-5 h-5'>
-                        <img src={tlLogo} />
+                        <img alt='' src={tlLogo} />
                     </div>
                     <div class="min-w-0 flex-1 flex flex-col">
                         <p class="truncatee">Tailwind Css</p>
@@ -77,7 +76,7 @@ const MySkills = () => {
                 <div className='skill-card px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100 m-6'>
 
                     <div className='w-5 h-5'>
-                        <img src={nodeLogo} />
+                        <img alt='' src={nodeLogo} />
                     </div>
                     <div class="min-w-0 flex-1 flex flex-col">
                         <p class="truncatee">Node.js</p>
@@ -89,7 +88,7 @@ const MySkills = () => {
                 <div className='skill-card px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100 m-6'>
 
                     <div className='w-5 h-5'>
-                        <img src={mongoLogo} />
+                        <img alt='' src={mongoLogo} />
                     </div>
                     <div class="min-w-0 flex-1 flex flex-col">
                         <p class="truncatee">MongoDb</p>

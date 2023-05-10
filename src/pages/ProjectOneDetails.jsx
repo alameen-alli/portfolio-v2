@@ -9,9 +9,7 @@ import cart from '../image/shoppingcart.png';
 import orderPage from '../image/ordersPage.png';
 import customerPage from '../image/customerPage.png';
 import employeePage from '../image/employeePage.png';
-import backArrow from '../image/left-arrow-7360.svg';
 import netlify from '../image/netlify-seeklogo.com.svg';
-import { HashLink } from 'react-router-hash-link';
 
 const ProjectOneDetails = () => {
 
@@ -56,7 +54,7 @@ const ProjectOneDetails = () => {
                     </div>
 
                     <div className='mt-16 max-w-full'>
-                        <img src={frontPage} className='rounded-md' />
+                        <img alt='' src={frontPage} className='rounded-md' />
                     </div>
 
                     {/* Project Purpose And Goal */}
@@ -108,7 +106,7 @@ const ProjectOneDetails = () => {
                             <div className='flex flex-col gap-6 justify-center h-full'>
                                 <div className='stack-card px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100'>
                                     <div className='w-5 h-5'>
-                                        <img src={reactLogo} />
+                                        <img alt='' src={reactLogo} />
                                     </div>
                                     <div className="min-w-0 flex-1 flex flex-col">
                                         <p class="truncatee">React</p>
@@ -118,7 +116,7 @@ const ProjectOneDetails = () => {
 
                                 <div className='stack-card px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100'>
                                     <div className='w-5 h-5'>
-                                        <img src={tlLogo} />
+                                        <img alt='' src={tlLogo} />
                                     </div>
                                     <div className="min-w-0 flex-1 flex flex-col">
                                         <p class="truncatee">Tailwind CSS</p>
@@ -128,7 +126,7 @@ const ProjectOneDetails = () => {
 
                                 <div className='stack-card px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100'>
                                     <div className='w-5 h-5'>
-                                        <img src={netlify} />
+                                        <img alt='' src={netlify} />
                                     </div>
                                     <div className="min-w-0 flex-1 flex flex-col">
                                         <p class="truncatee">Netlify</p>
@@ -138,7 +136,7 @@ const ProjectOneDetails = () => {
 
                                 <div className='stack-card px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100'>
                                     <div className=''>
-                                        <img src={syncfusionUrl} />
+                                        <img alt='' src={syncfusionUrl} />
                                     </div>
                                     {/* <div className="min-w-0 flex-1 flex flex-col">
                                         <p class="truncatee">Syncfusion</p>
@@ -182,7 +180,7 @@ const ProjectOneDetails = () => {
                                 <div className='mt-12 flex flex-col gap-6 justify-center h-full'>
                                     <div className='stack-card-mobile px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100'>
                                         <div className='w-5 h-5'>
-                                            <img src={reactLogo} />
+                                            <img alt='' src={reactLogo} />
                                         </div>
                                         <div className="min-w-0 flex-1 flex flex-col">
                                             <p class="truncatee">React</p>
@@ -192,7 +190,7 @@ const ProjectOneDetails = () => {
 
                                     <div className='stack-card-mobile px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100'>
                                         <div className='w-5 h-5'>
-                                            <img src={tlLogo} />
+                                            <img alt='' src={tlLogo} />
                                         </div>
                                         <div className="min-w-0 flex-1 flex flex-col">
                                             <p class="truncatee">Tailwind CSS</p>
@@ -202,7 +200,7 @@ const ProjectOneDetails = () => {
 
                                     <div className='stack-card-mobile px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100'>
                                         <div className='w-5 h-5'>
-                                            <img src={netlify} />
+                                            <img alt='' src={netlify} />
                                         </div>
                                         <div className="min-w-0 flex-1 flex flex-col">
                                             <p class="truncatee">Netlify</p>
@@ -212,7 +210,7 @@ const ProjectOneDetails = () => {
 
                                     <div className='stack-card-mobile px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100'>
                                         <div className=''>
-                                            <img src={syncfusionUrl} />
+                                            <img alt='' src={syncfusionUrl} />
                                         </div>
                                         {/* <div className="min-w-0 flex-1 flex flex-col">
                                         <p class="truncatee">Syncfusion</p>
@@ -235,11 +233,11 @@ const ProjectOneDetails = () => {
                     {/* Project Images And Pages */}
                     <div className='sm:flex mt-12 sm:mt-36 space-x-0 sm:space-x-10'>
                         <div className='pt-20'>
-                            <img className='mb-6 mx-auto sm:mx-0 rounded' src={sidebar} />
-                            <img className='mb-6 mx-auto sm:mx-0 rounded' src={cart} />
+                            <img alt='' className='mb-6 mx-auto sm:mx-0 rounded' src={sidebar} />
+                            <img alt='' className='mb-6 mx-auto sm:mx-0 rounded' src={cart} />
                         </div>
                         <div className='w-full sm:w-5/7'>
-                            <img className='rounded-lg' src={fullpage} />
+                            <img alt='' className='rounded-lg' src={fullpage} />
                         </div>
                     </div>
 
@@ -262,15 +260,15 @@ const ProjectOneDetails = () => {
 
                     <div className='sm:flex mt-36 sm:space-x-10'>
                         <div className='sm:w-1/2'>
-                            <img className='my-14 h-full rounded-lg' src={employeePage} />
+                            <img alt='' className='my-14 h-full rounded-lg' src={employeePage} />
                         </div>
                         <div className='sm:w-1/2'>
-                            <img className='mx-auto sm:mx-0 rounded-lg' src={orderPage} />
+                            <img alt='' className='mx-auto sm:mx-0 rounded-lg' src={orderPage} />
                         </div>
                     </div>
 
                     <div className='mt-14 sm:mt-36'>
-                        <img className='rounded-lg' src={customerPage} />
+                        <img alt='' className='rounded-lg' src={customerPage} />
                     </div>
 
                     <div className='mt-36'>

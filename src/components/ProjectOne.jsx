@@ -7,7 +7,7 @@ const ProjectOne = () => {
     <section className='mb-32'>
       <div className='hidden sm:block project-grid-shopmaster'>
         <div className='project-preview'>
-          <img className='project-one-img drop-shadow-xl' src={desktop} />
+          <img alt='' className='project-one-img drop-shadow-xl' src={desktop} />
         </div>
 
         <div className='project-summary'>
@@ -28,7 +28,7 @@ const ProjectOne = () => {
 
       <div className='sm:hidden'>
         <div className='project-preview'>
-          <img className='drop-shadow-xl' src={desktop} /> 
+          <img alt='' className='drop-shadow-xl' src={desktop} /> 
         </div>
         {/* className='project-one-img drop-shadow-xl' */}
 

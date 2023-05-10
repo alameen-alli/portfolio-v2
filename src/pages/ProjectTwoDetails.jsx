@@ -3,20 +3,16 @@ import frontPage from "../image/techwow-frontpage.png";
 import { Link } from 'react-router-dom';
 import reactLogo from '../icons/cdnlogo.com_react.svg';
 import tlLogo from '../icons/cdnlogo.com_tailwind-css.svg';
-import fullpage from "../image/shopmasterFullpage.png";
 import loginpage from '../image/techwow-login.png';
 import registerpage from '../image/registerpage.png';
 import postpage from '../image/postpage.png'
 import createpost from '../image/createPost.png';
 import editpost from '../image/updatepost.png'
 import nodeJS from '../icons/cdnlogo.com_nodejs-icon.svg'
-import backArrow from '../image/left-arrow-7360.svg';
 import mongoDB from '../icons/cdnlogo.com_mongodb-icon.svg';
-import { HashLink } from 'react-router-hash-link';
 
 const ProjectTwoDetails = () => {
 
-    const syncfusionUrl = "https://cdn.syncfusion.com/content/images/Logo/Logo_150dpi.png"
 
     return (
         <div>
@@ -59,7 +55,7 @@ const ProjectTwoDetails = () => {
                     </div>
 
                     <div className='mt-16 max-w-full'>
-                        <img src={frontPage} className='rounded-md' />
+                        <img alt='' src={frontPage} className='rounded-md' />
                     </div>
 
                     {/* Project Purpose And Goal */}
@@ -85,7 +81,7 @@ const ProjectTwoDetails = () => {
                             <div className='flex flex-col gap-6 justify-center h-full'>
                                 <div className='stack-card px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100'>
                                     <div className='w-5 h-5'>
-                                        <img src={reactLogo} />
+                                        <img alt='' src={reactLogo} />
                                     </div>
                                     <div className="min-w-0 flex-1 flex flex-col">
                                         <p class="truncatee">React</p>
@@ -95,7 +91,7 @@ const ProjectTwoDetails = () => {
 
                                 <div className='stack-card px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100'>
                                     <div className='w-5 h-5'>
-                                        <img src={tlLogo} />
+                                        <img alt='' src={tlLogo} />
                                     </div>
                                     <div className="min-w-0 flex-1 flex flex-col">
                                         <p class="truncatee">Tailwind CSS</p>
@@ -105,7 +101,7 @@ const ProjectTwoDetails = () => {
 
                                 <div className='stack-card px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100'>
                                     <div className='w-5 h-5'>
-                                        <img src={nodeJS} />
+                                        <img alt='' src={nodeJS} />
                                     </div>
                                     <div className="min-w-0 flex-1 flex flex-col">
                                         <p class="truncatee">Node JS</p>
@@ -115,7 +111,7 @@ const ProjectTwoDetails = () => {
 
                                 <div className='stack-card px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100'>
                                     <div className='w-5 h-5'>
-                                        <img src={mongoDB} />
+                                        <img alt='' src={mongoDB} />
                                     </div>
                                     <div className="min-w-0 flex-1 flex flex-col">
                                         <p class="truncatee">MongoDB</p>
@@ -158,7 +154,7 @@ const ProjectTwoDetails = () => {
                                 <div className='mt-12 flex flex-col gap-6 justify-center h-full'>
                                     <div className='stack-card-mobile px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100'>
                                         <div className='w-5 h-5'>
-                                            <img src={reactLogo} />
+                                            <img alt='' src={reactLogo} />
                                         </div>
                                         <div className="min-w-0 flex-1 flex flex-col">
                                             <p class="truncatee">React</p>
@@ -168,7 +164,7 @@ const ProjectTwoDetails = () => {
 
                                     <div className='stack-card-mobile px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100'>
                                         <div className='w-5 h-5'>
-                                            <img src={tlLogo} />
+                                            <img alt='' src={tlLogo} />
                                         </div>
                                         <div className="min-w-0 flex-1 flex flex-col">
                                             <p class="truncatee">Tailwind CSS</p>
@@ -178,7 +174,7 @@ const ProjectTwoDetails = () => {
 
                                     <div className='stack-card-mobile px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100'>
                                         <div className='w-5 h-5'>
-                                            <img src={nodeJS} />
+                                            <img alt='' src={nodeJS} />
                                         </div>
                                         <div className="min-w-0 flex-1 flex flex-col">
                                             <p class="truncatee">Node JS</p>
@@ -188,7 +184,7 @@ const ProjectTwoDetails = () => {
 
                                     <div className='stack-card-mobile px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100'>
                                         <div className='w-5 h-5'>
-                                            <img src={mongoDB} />
+                                            <img alt='' src={mongoDB} />
                                         </div>
                                         <div className="min-w-0 flex-1 flex flex-col">
                                         <p class="truncatee">Mongo DB</p>
@@ -211,11 +207,11 @@ const ProjectTwoDetails = () => {
                     {/* Project Images And Pages */}
                     <div className='sm:flex mt-12 sm:mt-36 space-x-0 sm:space-x-10'>
                         <div className='pt-20'>
-                            <img className='mb-6 mx-auto sm:mx-0 rounded' src={loginpage} />
-                            <img className='mb-6 mx-auto sm:mx-0 rounded' src={registerpage} />
+                            <img alt='' className='mb-6 mx-auto sm:mx-0 rounded' src={loginpage} />
+                            <img alt='' className='mb-6 mx-auto sm:mx-0 rounded' src={registerpage} />
                         </div>
                         <div className='w-5/7'>
-                            <img className='rounded-lg' src={postpage} />
+                            <img alt='' className='rounded-lg' src={postpage} />
                         </div>
                     </div>
 
@@ -238,10 +234,10 @@ const ProjectTwoDetails = () => {
 
                     <div className='mt-36'>
                         <div>
-                            <img className='my-14 h-full rounded-lg' src={createpost} />
+                            <img alt='' className='my-14 h-full rounded-lg' src={createpost} />
                         </div>
                         <div>
-                            <img className='mx-auto sm:mx-0 rounded-lg' src={editpost} />
+                            <img alt='' className='mx-auto sm:mx-0 rounded-lg' src={editpost} />
                         </div>
                     </div>
 

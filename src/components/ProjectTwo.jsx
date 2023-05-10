@@ -23,7 +23,7 @@ const ProjectTwo = () => {
                 </div>
 
                 <div className='project-preview'>
-                    <img className='project-one-img drop-shadow-xl' src={techwow} />
+                    <img alt='' className='project-one-img drop-shadow-xl' src={techwow} />
                 </div>
 
             </div>
@@ -31,7 +31,7 @@ const ProjectTwo = () => {
             <div className='sm:hidden'>
 
                 <div className='project-preview'>
-                    <img className='drop-shadow-xl' src={techwow} />
+                    <img alt='' className='drop-shadow-xl' src={techwow} />
                 </div>
 
                 <div>

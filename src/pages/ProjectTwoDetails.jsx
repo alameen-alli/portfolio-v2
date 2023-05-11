@@ -234,7 +234,7 @@ const ProjectTwoDetails = () => {
 
                     <div className='mt-36'>
                         <div>
-                            <img alt='' className='my-14 h-full rounded-lg' src={createpost} />
+                            <img alt='' className='my-14 rounded-lg' src={createpost} />
                         </div>
                         <div>
                             <img alt='' className='mx-auto sm:mx-0 rounded-lg' src={editpost} />

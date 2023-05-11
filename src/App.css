@@ -404,21 +404,21 @@ main.project-details {
   text-align: left;
 }
 
-.project-one-img {
+/* .project-one-img {
   max-width: 180%;
-}
+} */
 
 
 @media (min-width: 640px) {
   .project-one-img {
-    max-width: 160%;
+    max-width: 120%;
   }
 }
 
 
 
 .project-three-img {
-  max-width: 120%;
+  max-width: 110%;
 }
 
 .social-icon-container {

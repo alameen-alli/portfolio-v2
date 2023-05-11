@@ -260,7 +260,7 @@ const ProjectOneDetails = () => {
 
                     <div className='sm:flex mt-36 sm:space-x-10'>
                         <div className='sm:w-1/2'>
-                            <img alt='' className='my-14 h-full rounded-lg' src={employeePage} />
+                            <img alt='' className='my-14 rounded-lg' src={employeePage} />
                         </div>
                         <div className='sm:w-1/2'>
                             <img alt='' className='mx-auto sm:mx-0 rounded-lg' src={orderPage} />

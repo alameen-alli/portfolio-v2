@@ -296,7 +296,7 @@ const ProjectOneDetails = () => {
                             </Link>
                         </div> */}
 
-                        <div>
+                        <div className='mb-10'>
                             <Link to="/techwow" smooth>
                                 <button className=' flex items-center justify-between space-x-2 next-cta'>
                                     {/* <img src={backArrow} className='backArrow w-5 h-5' /> */}

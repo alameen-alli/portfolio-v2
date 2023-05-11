@@ -58,7 +58,7 @@ const Navbar = () => {
 
                                     <div className='flex justify-start mt-12'>
                                         <nav className='flex flex-col space-y-10 ml-8'>
-                                            <HashLink className='hover:bg-gray-50' to="#about" smooth>About</HashLink>
+                                            <HashLink to="#about" smooth>About</HashLink>
                                             <HashLink to="#projects" smooth>Projects</HashLink>
                                             <HashLink to="#contact" smooth>Reach out</HashLink>
                                             <a href='https://www.linkedin.com/in/allialameen/' to="#contact" smooth><img alt="" className='w-7 h-7' src={linkedin} /></a>

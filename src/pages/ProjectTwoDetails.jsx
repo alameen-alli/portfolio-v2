@@ -270,7 +270,7 @@ const ProjectTwoDetails = () => {
                             </HashLink>
                         </div> */}
 
-                        <div>
+                        <div className='mb-10'>
                             <Link to="/shopmaster" smooth>
                                 <button className=' flex items-center justify-between space-x-2 next-cta'>
                                     <svg className='w-5 h-5' xmlns="http://www.w3.org/2000/svg" version="1.0" width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000" preserveAspectRatio="xMidYMid meet">

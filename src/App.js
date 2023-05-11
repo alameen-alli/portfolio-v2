@@ -1,12 +1,15 @@
 import './App.css';
-import { Route, Routes } from "react-router-dom";
 import Layout from './components/Layout';
 import IndexPage from './pages/IndexPage';
 import ProjectOneDetails from './pages/ProjectOneDetails';
 import ProjectTwoDetails from './pages/ProjectTwoDetails';
+import { Router, Routes, Route } from 'react-router-dom';
+
 
 function App() {
   return (
+
+
 
     <Routes>
       <Route path='/' element={<Layout />}>

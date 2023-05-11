@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 const ProjectOne = () => {
   return (
     <section className='mb-32'>
+      {/* desktop */}
       <div className='hidden sm:block project-grid-shopmaster'>
         <div className='project-preview'>
           <img alt='' className='project-one-img drop-shadow-xl' src={desktop} />
@@ -26,6 +27,7 @@ const ProjectOne = () => {
         </div>
       </div>
 
+      {/* mobile */}
       <div className='sm:hidden'>
         <div className='project-preview'>
           <img alt='' className='drop-shadow-xl' src={desktop} /> 

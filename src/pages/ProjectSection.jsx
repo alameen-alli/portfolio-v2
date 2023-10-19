@@ -7,12 +7,14 @@ const ProjectSection = () => {
     return (
         <div className='project-container mt-96' id='projects'>
             <div className='text-white hidden'>Projects</div>
-            <div className='project-header text-white text-center sm:text-right mt-32'>
-                <span className='text-gradient'>My Projects</span>
+            <div className='mt-6'>
+                <div className='project-header text-white text-center sm:text-right mt-32'>
+                    <span className='text-gradient'>My Projects</span>
+                </div>
+                <ProjectOne />
+                <ProjectTwo />
+                <ProjectThree />
             </div>
-            <ProjectOne />
-            <ProjectTwo />
-            <ProjectThree />
         </div>
     )
 }

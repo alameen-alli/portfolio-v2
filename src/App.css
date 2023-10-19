@@ -4,6 +4,22 @@
 @import url('https://fonts.cdnfonts.com/css/mark-pro');
 @import url('https://fonts.cdnfonts.com/css/circular-std-book');
 
+
+/* Variables declared here - these are the colors for our pages, as well as the font stacks and sizes. */
+
+:root {
+  --black: #171321;
+  --dkblue: #0d314b;
+  --plum: #4b0d49;
+  --hotmag: #ff17e4;
+  --magenta: #e310cb;
+  --aqua: #86fbfb;
+  --white: #f7f8fa;
+  --font-size: 1.3rem;
+  --mono: 'Oxygen Mono', monospace;
+  --sans: 'Oxygen', sans-serif;
+}
+
 html,
 body {
   text-rendering: optimizeLegibility;
@@ -748,4 +764,86 @@ li {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* projects section */
+
+.text-project {
+  grid-column: 5/11;
+  grid-row: 1/2;
+  order: 2;
+  /* text-align: right; */
+  color: #d1d5db;
+}
+
+#projects {
+  padding: 4rem 1rem;
+}
+#projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: calc(2.5rem * 1.5);
+}
+
+#projects h3 {
+    color: var(--aqua);
+}
+
+#projects h4 {
+  font-size: 1rem;
+  font-family: var(--mono);
+  margin: 0;
+}
+.blackbox {
+    padding: 1rem;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(180deg, rgba(35, 37, 49, .5), rgba(15, 15, 24, .5));    font-size: 1rem;
+    line-height: 1.5;
+    /* border: 0.1rem solid #20222e; */
+    margin: 1rem 0;
+}
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-size: 1rem;
+}
+#projects img {
+    margin: 2rem 0 4rem 0;
+    padding: 1rem;
+    border-left: 1px solid var(--aqua);
+    border-top: 1px solid var(--aqua);
+    border-radius: 25px;
+}
+
+#projects ul {
+  justify-content: flex-end;
+}
+
+.link {
+  color: var(--magenta);
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: var(--hotmag);
+  text-decoration: none;
+}
+
+/* @media (min-width: 800px) {
+  article {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+  }
+} */
+
+@media (min-width: 800px) {
+    #projects {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
 }

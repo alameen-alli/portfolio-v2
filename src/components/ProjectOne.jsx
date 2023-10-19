@@ -1,6 +1,5 @@
 import React from 'react';
 import ecojob from '../image/ecojobs.png'
-import { Link } from 'react-router-dom';
 
 const ProjectOne = () => {
   return (

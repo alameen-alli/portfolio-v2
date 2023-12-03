@@ -1,5 +1,5 @@
 import React from 'react'
-import finesse from '../image/finnese.png'
+import finesse from '../../image/finnese.png'
 
 const ProjectTwo = () => {
     return (

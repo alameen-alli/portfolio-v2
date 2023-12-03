@@ -6,6 +6,7 @@ import tlLogo from '../icons/cdnlogo.com_tailwind-css.svg';
 import mongoLogo from '../icons/cdnlogo.com_mongodb-icon.svg';
 import nodeLogo from '../icons/cdnlogo.com_nodejs-icon.svg';
 import ReactLogo from '../icons/cdnlogo.com_react.svg';
+import NextLogo from '../icons/Next.js.png';
 import redux from '../icons/redux.svg';
 
 const MySkills = () => {
@@ -60,6 +61,17 @@ const MySkills = () => {
                     <div class="min-w-0 flex-1 flex flex-col">
                         <p class="truncatee">React.js</p>
                         {/* <small class="truncate">(Dart, Flutter, Firebase)</small> */}
+                    </div>
+
+                </div>
+
+                <div className='skill-card px-4 py-2 border border-neutral-900/10 dark:border-neutral-50/10 hover:border-neutral-900/30 dark:hover:border-neutral-50/30 rounded flex items-center gap-4 transition-colors duration-700 hover:duration-100 m-6'>
+
+                    <div className='w-11'>
+                        <img alt='Next Logo' src={NextLogo} />
+                    </div>
+                    <div class="min-w-0 flex-1 flex flex-col">
+                        <p class="truncatee">Next.js</p>
                     </div>
 
                 </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import shopmaster from "../image/shopmaster.png";
+import shopmaster from "../../image/shopmaster.png";
 
 
 const ProjectThree = () => {

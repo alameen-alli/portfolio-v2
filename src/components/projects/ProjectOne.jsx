@@ -1,5 +1,5 @@
 import React from 'react';
-import ecojob from '../image/ecojobs.png'
+import ecojob from '../../image/ecojobs.png'
 
 const ProjectOne = () => {
   return (

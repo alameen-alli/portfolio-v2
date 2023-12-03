@@ -340,7 +340,7 @@ main.project-details {
 }
 
 .skill-card {
-  /* background: linear-gradient(180deg,rgba(35,37,49,.5),rgba(15,15,24,.5)); */
+  background: linear-gradient(180deg,rgba(35,37,49,.5),rgba(15,15,24,.5));
   border-color: #10101a;
 }
 

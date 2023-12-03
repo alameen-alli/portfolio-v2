@@ -59,13 +59,16 @@ const ProjectOne = () => {
             integrated APIs to fetch and display job listings and other relevant data.<br />
             <a className='link' href="https://ecojobz-jade.vercel.app/">ECOJOBZ</a>
           </p>
-          <h4 className='text-right'>Technologies used include:</h4>
+          <h4 className='text-right text-gray-500'>Technologies used include:</h4>
           <ul className='text-center'>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
+            {/* <li>HTML</li>
+            <li>CSS</li> */}
+            {/* <li>JavaScript</li> */}
             <li>Reactjs</li>
+            <li>Next.js</li>
+            <li>Sass</li>
             <li>Tailwind CSS</li>
+            <li>Axios API</li>
           </ul>
         </div>
         <img src={ecojob} alt="Screenshot of the Wall of Wonder." />

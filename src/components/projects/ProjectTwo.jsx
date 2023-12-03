@@ -60,13 +60,13 @@ const ProjectTwo = () => {
                         APIs to facilitate seamless communication within the app.<br />
                         <a className='link' href="https://finesse-gamma.vercel.app/">FINESSE</a>
                     </p>
-                    <h4 className='text-right'>Technologies used include:</h4>
+                    <h4 className='text-right text-gray-500'>Technologies used include:</h4>
                     <ul className='text-center'>
                         <li>HTML</li>
                         <li>JavaScript</li>
                         <li>Reactjs</li>
                         <li>Tailwind CSS</li>
-                        <li>API</li>
+                        <li>REST API</li>
                     </ul>
                 </div>
                 <img src={finesse} alt="Screenshot of the Wall of Wonder." />

@@ -1,6 +1,5 @@
-import React from 'react';
-import shopmaster from "../../image/shopmaster.png";
-
+import React from "react";
+import shopmaster from "../../image/screencapture-allishopifyhackathon-netlify-app-2023-12-03-12_43_53.png";
 
 const ProjectThree = () => {
   return (
@@ -47,28 +46,39 @@ const ProjectThree = () => {
     //     </div>
     //   </div>
     // </section>
-    <section id='projects'>
+    <section id="projects">
       <article>
         <div class="text-project text-justify sm:text-right md:text-right transition duration-200 hover:border-accent md:hover:scale-[1.01]">
           {/* <h4>Latest Project</h4> */}
-          <h3>Shopmaster</h3>
-          <p class="blackbox">Ecojobz is a job-boarding web application, I collaborated with a team to design
-            a visually appealing and responsive user interface using Reactjs and Tailwind CSS and also
-            integrated APIs to fetch and display job listings and other relevant data.<br />
-            <a className='link' href="https://shopmaster-dashboard.netlify.app/">SHOPMASTER</a>
+          <h3>Shopify Onboarding Page</h3>
+          <p class="blackbox">
+            The task was to reimagine and build the Shopify merchant onboarding
+            experience based on a provided Figma design. The goal was to cater
+            to the diverse needs of three primary user segments - mouse users,
+            keyboard-only users, and screen reader users. Additionally, the
+            challenge required the creation of a fully responsive design for
+            both mobile phones and Desktop.
+            <br />
+            <a
+              className="link"
+              href="https://allishopifyhackathon.netlify.app/"
+            >
+              Shopify-onboard
+            </a>
           </p>
-          <h4 className='text-right'>Technologies used include:</h4>
-          <ul className='text-center'>
+          <h4 className="text-right text-gray-500">
+            Technologies used include:
+          </h4>
+          <ul className="text-center">
             <li>HTML</li>
-            <li>CSS Grid</li>
-            <li>Reactjs</li>
-            <li>SyncFusion</li>
+            <li>CSS Grid & Flex</li>
+            <li>Vanilla Javascript</li>
           </ul>
         </div>
         <img src={shopmaster} alt="Screenshot of shopmaster" />
       </article>
     </section>
-  )
-}
+  );
+};
 
 export default ProjectThree;

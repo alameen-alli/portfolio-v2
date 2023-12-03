@@ -73,7 +73,7 @@ const Navbar = () => {
                     <HashLink to="#about" className='nav-gradient' smooth>About</HashLink>
                     <HashLink to="#projects" className='nav-gradient' smooth>Projects</HashLink>
                     <HashLink to="#contact" className='nav-gradient' smooth>Contact</HashLink>
-                    <a href="https://drive.google.com/file/d/1SuTk1IQB1LrJL6Ds01meefTMn3prE4se/view?usp=share_link" className='nav-gradient'>
+                    <a href="https://drive.google.com/file/d/1AWla94Y3NY3HjwhG4cqR43hE1hob4qAC/view?usp=sharing" className='nav-gradient'>
                         <img alt='' src={resume} className='w-6 h-6' />
                     </a>
                 </nav>

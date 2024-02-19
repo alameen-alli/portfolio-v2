@@ -61,7 +61,7 @@ const Navbar = () => {
                                             <HashLink to="#about" smooth>About</HashLink>
                                             <HashLink to="#projects" smooth>Projects</HashLink>
                                             <HashLink to="#contact" smooth>Reach out</HashLink>
-                                            <a href='https://www.linkedin.com/in/allialameen/' to="#contact" smooth><img alt="" className='w-7 h-7' src={resume} /></a>
+                                            <a href='https://drive.google.com/file/d/1ANudVHbd0zku3IOnatSPb6dTlrErxHai/view?usp=sharing' to="#contact" smooth><img alt="" className='w-7 h-7' src={resume} /></a>
                                         </nav>
                                     </div>
                                 </div>
